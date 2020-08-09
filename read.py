@@ -1,9 +1,6 @@
-import os
 import numpy as np
-import math
 import matplotlib.pyplot as plt
 
- 
 data = np.loadtxt('./root/桌面/pion_gamma15_p0_t0_1.txt') 
 cfg = int(len(data) / 64) 
 a0 = 0.197/0.12 
